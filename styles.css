@@ -1,0 +1,192 @@
+:root {
+  --primary-color: #e56b6f;
+  --secondary-color-1: #f5f2fe;
+  --secondary-color-2: #576066;
+  --secondary-color-3: #212529;
+  --accent-color: #ca4d51;
+  --background-color: #fceaea;
+  --box-shadow: rgb(229, 107, 111, 0.5) 0px 8px 24px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 120px auto 40px auto;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-color-2);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--secondary-color-3);
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--secondary-color-2);
+  padding: 12px;
+}
+
+p {
+  background: var(--secondary-color-1);
+  padding: 24px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+navbar {
+  margin: 0;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.intro {
+  margin: 64px 0;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  font-weight: 600;
+}
+
+.navigation-links a {
+  border-radius: 8px;
+  margin: 12px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.link {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  border: 2px solid var(--primary-color);
+}
+
+.contact-link:hover {
+  background-color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+}
+
+.portfolio .row {
+  margin: 40px 0;
+  align-items: center;
+}
+
+.portfolio-content p {
+  padding: 24px 0 16px 0;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  max-width: 40px;
+}
+
+.contact-me h2,
+.about-me h2 {
+  margin: 32px 0 16px 0;
+}
+
+.contact-me .div {
+  padding: 16px;
+}
+
+.email a {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.portfolio p {
+  background: none;
+  text-align: left;
+}
+
+.about-content {
+  margin: 24px 0;
+}
+
+@media (max-width: 960px) {
+  .nav-item {
+    padding: 0;
+  }
+
+  .portfolio-content {
+    margin: 24px 0;
+  }
+
+  .col-sm-4 {
+    margin: 24px 0;
+  }
+
+  .about-para {
+    padding: 8px 0;
+  }
+}
